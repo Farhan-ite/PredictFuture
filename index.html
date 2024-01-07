@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicting Future</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Comic Neue font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap">
+    <!-- Add favicon -->
+    <link rel="icon" href="icons/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container" id="formContainer">
+        <h1>Let Me Predict Your Future!!</h1>
+        <form onsubmit="showFuture(event)">
+            <label for="friendName">Enter your name:</label>
+            <input type="text" id="friendName" placeholder="Name" required>
+            <button type="submit">Predict Future</button>
+        </form>
+    </div>
+
+    <div class="result-container" id="resultContainer">
+        <img src="" alt="Profile Photo" id="profilePhoto">
+        <h1 id="resultName"></h1>
+        <p id="resultParagraph"></p>
+        <button onclick="goBack()">Go Back</button>
+    </div>
+    <a class="people-list" href="name.html"><button>List of Names </button></a>
+
+    <script src="index.js"></script>
+</body>
+</html>
