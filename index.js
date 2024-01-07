@@ -28,7 +28,7 @@ function getFriendFuture(name) {
     // Manually add future predictions for each friend
     const futurePredictions = {
         muhtadee: "Muhtadee, the academic rival of Mubin, will accidentally discover a parallel universe where studying is considered a sport.He'll represent Earth in the Intergalactic Study Olympics, aiming for the gold medal in quantum physics.",
-        farhan: "The future is too dark for the algorithm to see through",
+        farhan: "404 ERROR FUTURE NOT FOUND",
         sourav:"Sourav, the chatterbox connoisseur, will become a world-famous motivational speaker for fast-food enthusiasts. His TED Talk, 'Cheese and Change,' will inspire burger lovers worldwide to demand more cheese and embrace the art of talking with their mouths full. His fast-food empire, 'Sourav's Talkative Tasteland,' will redefine drive-thrus as mini comedy clubs",
         ajanto:"Ajanta, the secretive married man, will start a reality show where he challenges contestants to uncover the hidden truth.His mysterious wife will be revealed in the season finale, creating a buzz in the reality TV world",
         chaity:"Chaity, the class captain and matchmaker extraordinaire, will accidentally become a fortune teller, predicting relationships with her magic eight-ball algorithm.She'll organize a speed-dating event where couples are matched based on compatibility in solving Rubik's cubes.",
